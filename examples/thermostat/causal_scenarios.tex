@@ -1,0 +1,48 @@
+
+\textbf{Unsafe Control Action}: Turning the heat ON when the room is already too hot.
+
+\textbf{Causal Scenarios}:
+
+\begin{compactitem}
+\item Control input or external info is wrong or missing:
+  
+  TARGET temperature is not set by the user and the default is unusually high.
+  TARGET temperature is set to the wrong value; the user believed the input was in Farenheit, but the thermostat was using Celsius.  
+
+\item Controller: Inadequate Control Algorithm.
+  
+Too long a delay between when thermostat measures temperatures and when it acts, so that the room has heated up (e.g. due to warm sunlight) before the thermostat turns the heater on.  
+\item Controller: Process Model Inconsistent, incomplete, or incorrect.
+
+  Perhaps the controller is storing temperature in Celsius, while the TARGET temperature is in Farenheit.
+  Perhaps only two digits of temperature are stored and the room is 103F.
+\item Inadequate or missing feedback:
+
+  Thermometer uses different units than the thermostat, reporting degrees C which are recorded as degrees F.
+  Thermometer is disconnected and the thermostat has not updated its MEASURED temperature.
+%\item Feedback Delays
+%
+%MEASURED temperature is consistently delayed. MEASURED(t) temperature is ACTUAL(t-Delta). MEASURED temperature is inconsistently delayed.
+ \item Sensor: inadequate operation; incorrect or no information provided
+
+   Perhaps the thermometer is in an unusually cold location, unrepresentative of the general room temperature, so the thermostat activates the heat even when the room at large is already warm.
+\end{compactitem}
+
+\columnbreak
+Other examples, not necessarily relevant to this action:
+
+\begin{compactitem}
+\item Controlled Process: Component failures
+   
+Furnace is broken. Furnace is out of fuel.
+   \item Unidentified or out-of-range disturbance
+   
+Water in the basement, missing roof or walls, open windows
+\item Actuator: Inadequate operation
+
+  Heater failed to turn HEAT ON when signaled. Baseboards not radiating heat. Leaking water. Frozen pipes.
+
+\item Controller 2: Conflicting control actions
+
+Perhaps someone manually turned the heater on, circumventing the thermostat.
+\end{compactitem}

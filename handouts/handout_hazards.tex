@@ -1,0 +1,71 @@
+\documentclass[a4paper]{tufte-book}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable} 
+\usepackage{lscape}
+\usepackage{colortbl}
+
+\geometry{
+  left=.5in,
+  right=.5in,
+  top=.5in,
+  bottom=.5in
+}
+
+\begin{document}
+
+\newtheorem{example}{Ex}
+
+\begin{landscape}
+\advance\vsize6cm
+\csname @colroom\endcsname=\vsize
+\textheight=\vsize
+\csname @colht\endcsname=\vsize
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{.75em}
+
+\begin{multicols}{2}
+[ \section{Identifying Hazards}]
+
+\newthought{Definition}
+
+\textbf{Hazards} are system conditions that, in combination with environmental conditions outside our control, can result in a loss.
+
+Our task is to \textbf{write a list} of hazards, staying broadly general and covering all the losses.
+
+For each of the \textbf{losses} defined earlier, we'll identify one or more \textbf{hazards}. 
+
+
+
+\newthought{Thermostat Example}
+
+\input{examples/thermostat/losses_table}
+\input{examples/thermostat/hazards}
+\columnbreak
+
+\newthought{Desired Qualities} 
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{.25em}
+\item Concise --- We want a relatively short list
+\item General --- We don't want to prematurely narrow our focus. 
+\item Good coverage --- For any accident we can think up, we want it to be described by at least one of the hazards on this list.
+\item Non-redundant --- Overlap between hazards is ok, but if one loss is entirely a subset of another, perhaps consider consolidating them.
+\item Under our control --- For them to be useful in guiding our actions, hazards should identify conditions we can actually do something about. Things outside our control (like weather, meteors, or the popularity of particular websites) are environmental conditions.
+\item Relevant --- They should be associated with the losses in a meaningful way. 
+
+Perhaps list what environmental condition would result in the loss.
+\end{itemize}  
+ 
+\newthought{Strategic Approaches} 
+
+Ask "what is \emph{risky but tolerable}?" vs. "what is \emph{unacceptable}?" to distinguish from losses--- What is a priority?
+
+\newthought{Relationship to other concepts}
+
+The relationship between \textbf{losses} and \textbf{hazards} lets us \emph{prioritize} our safety efforts, focusing on preventing the system states that are relevant to producing these accidents--- we don't need to examine every combination of system states.
+
+\end{multicols}
+\end{landscape}
+\end{document}

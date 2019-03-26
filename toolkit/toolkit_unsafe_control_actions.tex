@@ -1,0 +1,71 @@
+ \documentclass[a4paper]{tufte-book}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable} 
+\usepackage{lscape}
+\usepackage{colortbl}
+
+%\geometry{
+%  left=.5in,
+%  right=.5in,
+%  top=.5in,
+%  bottom=.5in
+%}
+
+\title{Toolkit: Unsafe Control Actions Table}
+
+\begin{document}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{.75em}
+
+
+
+\section{Unsafe Control Actions Table}
+
+\begin{fullwidth}
+\newthought{Requirements}
+
+For this step, you will need:
+\begin{itemize}
+\item A list of \textbf{actions} to analyze (taken from your \textbf{control model})
+\item A list of \textbf{hazards} those actions might cause if misapplied somehow
+\end{itemize}
+
+In each cell, consider the action at the start of the row, and what hazard or hazards might result if that action occurs in the way described at the top of the column. 
+
+In that cell, write down the hazard number and the context or condition under which that application of the action would result in that hazard.
+
+\begin{enumerate}
+\item Control action \hbox{required} for safety is not provided or not followed. (not provided)
+\item An unsafe control action is provided that leads to a hazard.  (provided but wrong)
+\item A potentially safe control action is provided too late, too early, or out of sequence.
+\item A safe control action is stopped too soon or applied too long. (applied for wrong duration)
+\end{enumerate}
+
+\begin{table}
+\renewcommand{\arraystretch}{3}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+\textsc{Control action}&\textbf{not provided}&\textbf{provided but wrong}&\textbf{too late, too early, or out of sequence}&\textbf{applied for wrong duration}\\
+\hline
+&&&&\\
+\hline
+&&&&\\
+\hline
+&&&&\\
+\hline
+&&&&\\
+\hline
+&&&&\\
+\hline
+&&&&\\
+\hline
+&&&&\\
+\hline
+\end{tabular}
+\vspace{1em}
+\end{table}
+
+\end{fullwidth}
+\end{document}

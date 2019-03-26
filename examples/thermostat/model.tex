@@ -1,0 +1,28 @@
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{.25em}
+\item \textbf{Goal}: Adjust the room's temperature to 72 degrees F (TARGET)
+\item \textbf{Internal Process Model / Mental Model}: 
+
+Measured room temperature: 69 degrees F; Current heater state: ON
+\item \textbf{Control Algorithm / Decision Process}
+  \begin{compactitem}[*]
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{.25em}
+  \item If MEASURED $<=$ TARGET $-$ 2: Turn HEAT ON.
+  \item If MEASURED $>=$ TARGET $+$ 2 : Turn HEAT OFF.
+  \item Else: Do nothing.
+  \end{compactitem}
+\item \textbf{Control Actions}: Turn heater ON, Turn heater OFF 
+\item \textbf{Input} --- A human operator enters the TARGET temperature
+\item \textbf{Sensor} --- A thermometer reports the temperature in degrees Farenheit
+\item \textbf{Actuator} --- We could consider the furnace and heaters an actuator the thermostat uses to adjust the temperature of the apartment's air, or there is an actuator that switches the furnace on or off when signalled by the thermostat.
+\item \textbf{System being controlled} --- The thermostat is controlling the heater directly and the temperature of the apartment indirectly.
+\end{itemize}  
+
+
+
+
+
+
+

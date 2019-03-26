@@ -1,0 +1,68 @@
+ \documentclass[a4paper]{tufte-book}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable} 
+\usepackage{lscape}
+\usepackage{colortbl}
+
+%\geometry{
+%  left=.5in,
+%  right=.5in,
+%  top=.5in,
+%  bottom=.5in
+%}
+
+\title{Toolkit: Generic Losses}
+
+\begin{document}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{.75em}
+
+\begin{fullwidth}
+
+\section{Generic Losses}
+
+\newthought{Definition}
+
+\textbf{Losses} are the outcomes we want to prevent.
+
+\newthought{What this list is}
+
+Col. Bill Young, a colleague of Nancy Leveson's, proposes considering mission loss in some of his talks.
+Much of this list grew out of conversations in Akamai's InfoSec Safety Team about "life, limb, liberty, loot..." and gradually expanded. This list may not be complete, and you may wish to subdivide these items differently, but it can serve as an inspirational starting point.
+
+\newthought{Generic Losses to start with} 
+\begin{enumerate}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{.25em}
+
+\item \textsc{mission loss} - Failure to meet critical system goals and "minimum viable product" requirements
+\item \textsc{life and limb} - Accidents resulting in injury or death
+\item \textsc{wellbeing} - More general harm to individuals
+
+We can include "psychological harm" or "quality of life" under this category, if we do not specifically identify it elsewhere.
+This includes the wellbeing (physical, mental, material, etc.) of people inside or outside of the company (system developers, operators, end users, customers...). We may want to consider morale, usability factors, etc. This might also be a reminder to include "positive user experience" among goals.
+\item \textsc{liberty and legal} - Violation of laws, contractual obligations, or certification obligations
+
+This includes encountering legal proceedings that are cumbersome or expensive, even if penalties are not incurred.
+\item \textsc{lucre} - Financial loss (e.g. Through fines, COGS, inability to sell, ...)
+\item \textsc{material} - Damage to equipment and facilities
+\item \textsc{interference} -  Damage to or disruption of other systems or processes
+
+This can be useful when considering the impact of one Akamai system on another.
+More broadly, we do not want Akamai's operation to damage the internet at large.
+"Don't make things worse."
+\item \textsc{reputation} - Damage to business reputation in a way that erodes customer, employee, or public trust and may impact current or future relationships
+\item \textsc{adoption failure} - Shifting from an old system to a new system doesn't occur, occurs too slowly, or is arduous or fraught
+
+This might be related to a mission goal for a transition project of some sort.
+\item \textsc{[past losses]} - This is a reminder to examine past accidents for inspiration about losses to avoid.
+\end{enumerate}  
+ 
+\newthought{Strategic Approaches} 
+
+Ask "what is \emph{unacceptable}?" vs. "what is \emph{risky but tolerable}?" to distinguish from hazards.
+
+\end{fullwidth}
+\end{document}

@@ -1,0 +1,81 @@
+\documentclass[a4paper]{tufte-book}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable} 
+\usepackage{lscape}
+\usepackage{colortbl}
+
+\geometry{
+  left=.5in,
+  right=.5in,
+  top=.5in,
+  bottom=.5in
+}
+
+\begin{document}
+
+\begin{landscape}
+\advance\vsize6cm
+\csname @colroom\endcsname=\vsize
+\textheight=\vsize
+\csname @colht\endcsname=\vsize
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{.75em}
+
+\begin{multicols}{2}
+[ \section{Identifying Unsafe Control Actions}]
+
+\newthought{Definition}
+
+Now we ask, "How could the system enter hazardous states?"
+
+We focus on how actions taken by parts of the system could cause hazards, if those actions occur under inappropriate conditions. 
+We use a table with these guides:\begin{itemize}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{.25em}
+\item Control action required for safety is not provided or not followed
+\item An unsafe control action is provided that leads to a hazard (action inappropriate)
+\item A potentially safe control action is provided too late, too early, or out of sequence (occurs at wrong time)
+\item A safe control action is stopped too soon or applied too long (occurs for wrong duration)
+\end{itemize}
+
+Each cell entry is marked with ``not applicable'', ``not hazardous'', or a description of the \textbf{context} that makes the action dangerous and the \textbf{hazard} that results. 
+
+\newthought{Thermostat Example}
+
+\input{examples/thermostat/unsafe_control_actions}
+
+ \columnbreak
+\newthought{Desired Qualities} 
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{.25em}
+\item Completeness --- Check each cell.
+\item Each cell entry is marked with ``not applicable'', ``not hazardous'', or a description of the \textbf{context} that makes the action dangerous and the \textbf{hazard} that results. 
+\item It is acceptable for a cell to include multiple (context,hazard) pairs.
+\end{itemize}
+
+\newthought{Strategic Approaches} 
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{.25em}
+\item \textsc{Divide and conquer} --- This work can be split up among several people.
+\item \textsc{Pace your efforts} --- Track progress, returning later as needed.
+\item Triage and prioritize --- This table can get huge. With limited time resources, we may choose not to aim for completeness.
+
+Prioritize investigating actions needing additional scrutiny, e.g. actions that are new, poorly understood, currently changing, believed to be risky, or involved in close interactions with other systems that need additional scrutiny.
+\end{itemize}  
+
+\emph{Toolkit}: Unsafe Control Actions table
+
+\newthought{Relationship to other concepts}
+
+The \textbf{actions} we are analyzing here come from our \textbf{control model}.
+
+The judgement of whether an action occurring inappropriately (or inappropriately failing to occur) is a \emph{problem} comes from associating it with a \textbf{hazard}, which we have identified as a precursor to at least one \textbf{loss}.
+
+\end{multicols}
+\end{landscape}
+\end{document}

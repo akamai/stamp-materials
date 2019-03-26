@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0.0 0.0 1024.0 768.0"
+   fill="none"
+   stroke="none"
+   stroke-linecap="square"
+   stroke-miterlimit="10"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="thermostat_model.svg">
+  <metadata
+     id="metadata75">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs73">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker9624"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path9626"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker7518"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7520" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker7458"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path7460"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker6704"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6706" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6371"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path6373"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5349"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5351" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4543"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4545" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4224"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4218"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1446"
+     inkscape:window-height="956"
+     id="namedview71"
+     showgrid="false"
+     inkscape:zoom="0.77148438"
+     inkscape:cx="628.92711"
+     inkscape:cy="435.8481"
+     inkscape:window-x="377"
+     inkscape:window-y="54"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <clipPath
+     id="p.0">
+    <path
+       d="m0 0l1024.0 0l0 768.0l-1024.0 0l0 -768.0z"
+       clip-rule="nonzero"
+       id="path5" />
+  </clipPath>
+  <rect
+     style="fill:#afdde9;fill-opacity:1;stroke:#0b2228;stroke-width:2.8017242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect3403"
+     width="590.58844"
+     height="128.27368"
+     x="195.84221"
+     y="67.752518"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png" />
+  <rect
+     y="308.63232"
+     x="195.64606"
+     height="128.66602"
+     width="435.43646"
+     id="rect3405"
+     style="fill:#afdde9;fill-opacity:1;stroke:#0b2228;stroke-width:2.4093976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png" />
+  <rect
+     style="fill:#afdde9;fill-opacity:1;stroke:#0b2228;stroke-width:1.80379224;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect3407"
+     width="242.9079"
+     height="129.27162"
+     x="195.34325"
+     y="549.40552"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png" />
+  <path
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+     d="m 305.82575,194.85006 -1.06383,106.84773"
+     id="path3409"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     sodipodi:nodetypes="cc" />
+  <path
+     inkscape:connector-curvature="0"
+     inkscape:connector-type="polyline"
+     id="path4541"
+     d="m 305.82575,438.51845 -1.06383,104.25532"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6371)"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     inkscape:connector-curvature="0"
+     inkscape:connector-type="polyline"
+     id="path5345"
+     d="M 353.82575,548.48821 352.76192,444.23289"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7458)"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4543)"
+     d="M 353.82575,307.41223 352.76192,201.86071"
+     id="path5347"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     sodipodi:nodetypes="cc" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot6589"
+     style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(3.0564,-2.5924051)"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"><flowRegion
+       id="flowRegion6591"><rect
+         id="rect6593"
+         width="268.08511"
+         height="39.361702"
+         x="212.76596"
+         y="78.638298" /></flowRegion><flowPara
+       id="flowPara6595"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">human operator</flowPara></flowRoot>  <flowRoot
+     style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="flowRoot6597"
+     xml:space="preserve"
+     transform="translate(3.0564,242.08844)"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"><flowRegion
+       id="flowRegion6599"><rect
+         y="78.638298"
+         x="212.76596"
+         height="39.361702"
+         width="268.08511"
+         id="rect6601" /></flowRegion><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+       id="flowPara6603">thermostat</flowPara></flowRoot>  <flowRoot
+     transform="translate(3.0564,486.03977)"
+     xml:space="preserve"
+     id="flowRoot6605"
+     style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"><flowRegion
+       id="flowRegion6607"><rect
+         id="rect6609"
+         width="268.08511"
+         height="39.361702"
+         x="212.76596"
+         y="78.638298" /></flowRegion><flowPara
+       id="flowPara6611"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">heater</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot6613"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;text-align:end"><flowRegion
+       id="flowRegion6615"><rect
+         id="rect6617"
+         width="370.21277"
+         height="35.106384"
+         x="1584.0426"
+         y="499.91489" /></flowRegion><flowPara
+       id="flowPara6619"></flowPara></flowRoot>  <rect
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     y="549.49609"
+     x="500.4718"
+     height="129.09041"
+     width="294.5748"
+     id="rect6662"
+     style="fill:#afdde9;fill-opacity:1;stroke:#0b2228;stroke-width:1.98499262;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png" />
+  <flowRoot
+     style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="flowRoot6664"
+     xml:space="preserve"
+     transform="translate(307.99817,486.03977)"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"><flowRegion
+       id="flowRegion6666"><rect
+         y="78.638298"
+         x="212.76596"
+         height="39.361702"
+         width="268.08511"
+         id="rect6668" /></flowRegion><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';text-align:start;writing-mode:lr;text-anchor:start"
+       id="flowPara6670">room temperature</flowPara></flowRoot>  <path
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5349)"
+     d="M 585.82575,548.48821 584.76192,444.23289"
+     id="path6702"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7518)"
+     d="m 441.02339,600.62184 56.25083,-1.10517"
+     id="path7516"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     inkscape:connector-curvature="0"
+     inkscape:connector-type="polyline"
+     id="path9622"
+     d="M 717.82575,548.48821 716.76192,201.84302"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9624)"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <rect
+     style="fill:#dbdee3;fill-opacity:1;stroke:#1c1f24;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect21099"
+     width="242.38988"
+     height="72.587341"
+     x="514.36963"
+     y="91.382278" />
+  <rect
+     y="334.76718"
+     x="449.48111"
+     height="73.189674"
+     width="153.55423"
+     id="rect21101"
+     style="fill:#dbdee3;fill-opacity:1;stroke:#1c1f24;stroke-width:2.39766979;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <flowRoot
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     transform="translate(328.40324,18.146835)"
+     style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="flowRoot21103"
+     xml:space="preserve"><flowRegion
+       id="flowRegion21105"><rect
+         y="78.638298"
+         x="212.76596"
+         height="39.361702"
+         width="268.08511"
+         id="rect21107" /></flowRegion><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+       id="flowPara21109">mental model</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot21111"
+     style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(249.33489,256.6481)"
+     inkscape:export-filename="/home/kpeterso/stamp_teaching-backup/images/thermostat_model.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"><flowRegion
+       id="flowRegion21113"><rect
+         id="rect21115"
+         width="98.2826"
+         height="69.174362"
+         x="212.76596"
+         y="78.638298" /></flowRegion><flowPara
+       id="flowPara21117"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">process </flowPara><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+       id="flowPara21119">model</flowPara></flowRoot></svg>

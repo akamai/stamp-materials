@@ -1,0 +1,71 @@
+ \documentclass[a4paper]{tufte-book}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable} 
+\usepackage{lscape}
+\usepackage{colortbl}
+
+\geometry{
+  left=.5in,
+  right=.5in,
+  top=.5in,
+  bottom=.5in
+}
+
+\begin{document}
+
+\begin{landscape}
+\advance\vsize6cm
+\csname @colroom\endcsname=\vsize
+\textheight=\vsize
+\csname @colht\endcsname=\vsize
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{.75em}
+
+
+\begin{multicols}{2}
+[ \section{Identifying Losses}]
+
+\newthought{Definition}
+
+Accident: An undesired or unplanned event that results in a \textbf{loss}, including loss of human life or human injury, property damage, environmental pollution, mission loss, etc. [\emph{Engineering A Safer World} p 181]
+
+\textbf{Losses} are the outcomes we want to prevent.
+
+Our task is to \textbf{write a list} of them, staying broadly general and covering all the areas of concern for our safety analysis to address.
+\newthought{Thermostat Example}
+
+\input{examples/thermostat/losses}
+ \columnbreak
+
+\newthought{Desired Qualities} 
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{.25em}
+\item Concise --- We want a relatively short list (<20); these are our priorities.
+\item General --- We don't want to prematurely narrow our focus. 
+
+Example: "Someone is injured" may be a more useful loss statement than "Someone is injured by hot equipment" because, overall, we want to prevent \emph{any} injury.
+\item Good coverage --- For any accident we can think up, we want it to be described by at least one of the losses on this list.
+\item Non-redundant --- Overlap between losses is ok, but if one loss is entirely a subset of another, perhaps consider consolidating them.
+\item Relevant --- They should be problems we actually consider important to prevent for our system. 
+
+Example: "Civil war breaks out" is not a loss relevant to our thermostat example (except jokingly, or if there's an allegory about climate change).
+\end{itemize}  
+ 
+\newthought{Strategic Approaches} 
+
+Ask "what is \emph{unacceptable}?" vs. "what is \emph{risky but tolerable}?" to distinguish from hazards.
+
+\emph{Toolkit}: List of generic losses.
+
+\newthought{Relationship to other concepts}
+
+For each of these \textbf{losses}, we will identify hazardous system conditions that, in combination with environmental conditions, can result in an accident in which we experience the loss.
+
+The relationship between \textbf{losses} and \textbf{hazards} lets us \emph{prioritize} our safety efforts, focusing on preventing the system states that are relevant to producing these accidents--- we don't need to examine every combination of system states.
+
+\end{multicols}
+\end{landscape}
+\end{document}
